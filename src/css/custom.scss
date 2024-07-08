@@ -101,3 +101,9 @@
     height: 40px;
   }
 }
+
+@media only screen and (max-width: 460px) {
+  .h1.vlt-large-heading, h1.vlt-large-heading {
+    font-size: 4.5rem;
+  }
+}
