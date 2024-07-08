@@ -83,3 +83,21 @@
     }
   }
 }
+
+.vlt-navbar .vlt-navbar-logo img {
+  display: block;
+  height: 80px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .vlt-navbar .vlt-navbar-inner {
+      padding: 0 3.75rem 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .vlt-navbar .vlt-navbar-logo img {
+    display: block;
+    height: 40px;
+  }
+}
