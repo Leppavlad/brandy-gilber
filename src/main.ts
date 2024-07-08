@@ -1,2 +1,2 @@
-// import './style.css'
-// import "./vendors/jquery-3.5.1.min.js";
+import './css/custom.scss';
+import './scripts/custom.js'
