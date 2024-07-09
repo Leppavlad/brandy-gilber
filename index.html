@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!--Favicon-->
-	<link rel="icon" type="image/svg" href="public/img/root/favicon.svg">
+	<link rel="icon" type="image/png" href="public/img/logo/favicon.png">
 	<!--Framework-->
 	<link rel="stylesheet" href="./src/css/framework/bootstrap.min.css">
 	<!--Fonts-->
@@ -19,6 +19,8 @@
 	<link rel="stylesheet" href="./src/css/vlt-plugins.min.css">
 	<!--Style-->
 	<link rel="stylesheet" href="./src/css/vlt-main.min.css">
+	<!--Custom-->
+	<link rel="stylesheet" href="./src/css/custom.css">
 </head>
 
 <body class=" animsition">
@@ -28,7 +30,7 @@
 			<div class="vlt-navbar-background"></div>
 			<div class="vlt-navbar-inner">
 				<div class="vlt-navbar-inner--left">
-					<!--Logo--><a class="vlt-navbar-logo" href="index.html"><img src="public/logo/logo-header_h80.png" alt="Gilber"></a>
+					<!--Logo--><a class="vlt-navbar-logo" href="index.html"><img src="public/img/logo/logo-header_h80.png" alt="Gilber"></a>
 				</div>
 				<div class="vlt-navbar-inner--center">
 					<div class="container">
@@ -145,7 +147,12 @@
 				<div class="vlt-section__vertical-align">
 					<div class="vlt-section__content">
 						<!--Projects-->
-						<div class="vlt-section__projects-background"><img class="is-active" src="public/img/project-01.jpg" alt="" loading="lazy"><img src="public/img/project-02.jpg" alt="" loading="lazy"><img src="public/img/project-03.jpg" alt="" loading="lazy"></div>
+						<div class="vlt-section__projects-background">
+							<img class="is-active" src="public/img/projects/01 background.jpg" alt="" loading="lazy">
+							<img src="public/img/projects/02 background.jpg" alt="" loading="lazy">
+							<img src="public/img/projects/03 background.jpg" alt="" loading="lazy">
+							<img src="public/img/projects/04 background.jpg" alt="" loading="lazy">
+						</div>
 						<div class="container">
 							<div class="vlt-gap-50"></div>
 							<!--Animated Block-->
@@ -166,7 +173,7 @@
 																allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 																referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 																<div class="youtube__preview-button">
-																<img class="youtube__preview-image" src="./public/video-preview/01.png" alt="">
+																<img class="youtube__preview-image" src="./public/img/projects/01 preview.png" alt="">
 																</div>
 															</div>
 														</div>
@@ -199,7 +206,7 @@
 																	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 																	referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 																<div class="youtube__preview-button">
-																	<img class="youtube__preview-image" src="./public/video-preview/02.png" alt="">
+																	<img class="youtube__preview-image" src="./public/img/projects/02 preview.png" alt="">
 																</div>
 															</div>
 														</div>
@@ -227,7 +234,7 @@
 																	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 																	referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 																<div class="youtube__preview-button">
-																	<img class="youtube__preview-image" src="./public/video-preview/03.png" alt="">
+																	<img class="youtube__preview-image" src="./public/img/projects/03 preview.png" alt="">
 																</div>
 															</div>
 														</div>
@@ -255,7 +262,7 @@
 																	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 																	referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 																<div class="youtube__preview-button">
-																	<img class="youtube__preview-image" src="./public/video-preview/04.png" alt="">
+																	<img class="youtube__preview-image" src="./public/img/projects/04 preview.png" alt="">
 																</div>
 															</div>
 														</div>
@@ -318,15 +325,15 @@
 									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
 										<h4>Можете <span class="has-accent-color">заполнить бриф</span>, и мы с Вами свяжемся, чтобы обсудить детали</h4>
 										<div class="vlt-gap-20"></div>
-										<form class="vlt-contact-form" novalidate="novalidate">
+										<form class="vlt-contact-form" novalidate="validate">
 											<div class="vlt-form-group">
 												<input type="text" id="name" name="name" required="required" placeholder="Имя">
 											</div>
 											<div class="vlt-form-group">
-												<input type="email" id="email" name="email" required="required" placeholder="Электронная почта">
+												<input type="email" id="email" name="email" placeholder="Электронная почта">
 											</div>
 											<div class="vlt-form-group">
-												<input type="email" id="phone" name="phone" required="required" placeholder="Телефон">
+												<input type="tel" id="phone" name="phone" required="required" placeholder="Телефон">
 											</div>
 											<div class="vlt-form-group">
 												<textarea name="message" id="message" rows="3" placeholder="Сообщение"></textarea>
@@ -358,8 +365,7 @@
 	<script src="/scripts/vlt-plugins.min.js"></script>
 	<script src="/scripts/vlt-helpers.js"></script>
 	<script src="/scripts/vlt-controllers.min.js"></script>
-	<script type="module" src="./src/main.ts"></script>
-  <script type="module" src="./src/scripts/slider.ts"></script>
+	<script type="module" src="./src/scripts/slider.ts"></script>
 </body>
 
 </html>
